@@ -1,5 +1,5 @@
-#ifndef EXE_INTERFACE
-#define EXE_INTERFACE
+#ifndef EXE_INTERFACE_H
+#define EXE_INTERFACE_H
 
 #include <cstdint>
 #include "error.h"
@@ -18,5 +18,5 @@ class ExeInterface {
 
 }  // cplusplus_exercise
 
-#endif  // EXE_INTERFACE
+#endif  // EXE_INTERFACE_H
 

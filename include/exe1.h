@@ -67,5 +67,5 @@ class Exercise_1 : public ExeInterface {
 
 }  // cplusplus_exercise
 
-#endif
+#endif  // EXE1_H
 
