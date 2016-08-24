@@ -10,6 +10,8 @@
 #include "exe2.h"
 #include "exe3.h"
 #include "exe4.h"
+#include "exe5.h"
+#include "exe6.h"
 
 using namespace std;
 using namespace cplusplus_exercise;
@@ -40,6 +42,8 @@ int main(int argc, char** argv) {
   exercises.push_back(new Exercise_2());
   exercises.push_back(new Exercise_3());
   exercises.push_back(new Exercise_4());
+  exercises.push_back(new Exercise_5());
+  exercises.push_back(new Exercise_6());
 
   for (auto i=exercises.begin(); i != exercises.end(); i++) {
     (*i)->description();
