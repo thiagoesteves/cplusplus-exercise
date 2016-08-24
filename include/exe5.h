@@ -15,8 +15,6 @@ class SharedPointerClass1 {
     std::cout << "# My Base constructor" << std::endl;
   };
 
-
-
   virtual ~SharedPointerClass1() {
     std::cout << "# The destructor was called automatically" << std::endl;
   };

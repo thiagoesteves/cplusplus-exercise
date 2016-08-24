@@ -29,7 +29,7 @@ class Exercise_6 : public ExeInterface {
 
   void description(void) {
     std::cout << "################################################################" << std::endl;
-    std::cout << "# EXE6: Let's verify the behavior of smart pointer+factory    #" << std::endl;
+    std::cout << "# EXE6: Let's verify the behavior of smart pointer+factory     #" << std::endl;
     std::cout << "#                                                              #" << std::endl;
   }
 
